@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 5px;
+}
+
+.post {
+    background-color: #fff;
+    color: #000;
+    width: 375px; 
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin: 5px;
+}
+
+.post-header {;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.post-header i.fa-html5 {
+    font-size: 24px; 
+    margin-right: 5px;
+}
+
+.post-header div p {
+    margin: 0;
+    font-size: 12px; 
+    line-height: 1; 
+}
+
+.post-header > div:first-child {
+    display: flex;
+    align-items: center;
+
+}
+
+.post-header > div:first-child p {
+    margin-left: 10px; 
+}
+
+.post-header > div:last-child {
+    margin-left: auto; 
+}
+
+.post-img img {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover;
+}
+
+.post-content {
+    padding-left: 2px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-icons {
+    font-size: 20px;
+    background-color: transparent;  
+    justify-content: space-between;
+}
+
+
+.likes {
+    font-weight: normal
+}
+
+.likes strong {
+    font-weight: bold;
+    margin: 10px;
+    align-items: center;
+}
+
+.description {
+    font-size: 14px;
+    text-align: justify;
+    padding: 8px;
+    
+}
